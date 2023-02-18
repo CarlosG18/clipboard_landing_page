@@ -7,81 +7,152 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
   <title>Frontend Mentor | Clipboard landing page</title>
+  
+  <link rel="stylesheet" href="style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  A history of everything you copy
+  <header class="box column">
+    <div class="box-logo">
+      <img class="logo" src="./images/logo.svg" alt="logo">
+    </div>
+    <div class="box column content">
+      <h1>A history of everything you copy</h1>
+      <p>Clipboard allows you to track and organize everything you
+      copy. Instantly access your clipboard on all your devices.</p>
+    </div>
+    <div class="box botoes">
+      <button class="btn verde">Download for iOS</button>
+      <button class="btn roxo">Download for Mac</button>
+    </div>
+  </header>
 
-  Clipboard allows you to track and organize everything you 
-  copy. Instantly access your clipboard on all your devices.
+  <section class="box column">
+    <div class="box column content">
+      <h2>Keep track of your snippets</h2>
+      <p>Clipboard instantly stores any item you copy in the cloud,
+      meaning you can access your snippets immediately on all your
+      devices. Our Mac and iOS apps will help you organize everything.</p>
+    </div>
+    <div class="box">
+      <div class="box-pc">
+        <img class="img-pc" src="./images/image-computer.png" alt="computer">
+      </div>
+      <div class="box column">
+        <div class="box column start">
+          <h3>Quick Search</h3>
+          <p>Easily search your snippets by content, category, web address, application, and more.</p>
+        </div>
+        <div class="box column start">
+          <h3>iCloud Sync</h3>
+          <p>Instantly saves and syncs snippets across all your devices.</p>
+        </div>
+        <div class="box column start">
+          <h3>Complete History</h3>
+          <p>Retrieve any snippets from the first moment you started using the app.</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-  Download for iOS
-  Download for Mac
-
-  Keep track of your snippets
-
-  Clipboard instantly stores any item you copy in the cloud, 
-  meaning you can access your snippets immediately on all your 
-  devices. Our Mac and iOS apps will help you organize everything.
-
-  Quick Search
-
-  Easily search your snippets by content, category, web address, application, and more.
-
-  iCloud Sync
-
-  Instantly saves and syncs snippets across all your devices.
-
-  Complete History
-
-  Retrieve any snippets from the first moment you started using the app.
-
-  Access Clipboard anywhere
-
-  Whether you’re on the go, or at your computer, you can access all your Clipboard 
-  snippets in a few simple clicks.
-
-  Supercharge your workflow
-
-  We’ve got the tools to boost your productivity.
-
-  Create blacklists
-
-  Ensure sensitive information never makes its way to your clipboard by excluding certain sources.
-
-  Plain text snippets
-
-  Remove unwanted formatting from copied text for a consistent look.
-
-  Sneak preview
-
-  Quick preview of all snippets on your Clipboard for easy access.
-
-  Clipboard for iOS and Mac OS
-
-  Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
-  and you’re ready to start adding to your clipboard.
-
-  Download for iOS
-  Download for Mac
-
-  FAQs
-  Contact Us
-  Privacy Policy
-  Press Kit
-  Install Guide
+  <section class="box column">
+    <div class="box column content">
+      <h2>Access Clipboard anywhere</h2>
+      <p>Whether you’re on the go, or at your computer, you can access all your Clipboard
+      snippets in a few simple clicks.</p>
+    </div>
+    <div class="box-devices">
+      <img class="img-devices" src="./images/image-devices.png" alt="devices">
+    </div>
+  </section>
+  
+  <section class="box column">
+    <div class="box column content">
+      <h2>Supercharge your workflow</h2>
+      <p>We’ve got the tools to boost your productivity.</p>
+    </div>
+    <div class="box cards">
+      <div class="box column card">
+        <div class="box-img">
+          <img src="./images/icon-blacklist.svg" alt="icon_blacklist">
+        </div>
+        <h3>Create blacklists</h3>
+        <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+      </div>
+      <div class="box column card">
+        <div class="box-img">
+          <img src="./images/icon-text.svg" alt="icon_text">
+        </div>
+        <h3>Plain text snippets</h3>
+        <p>Remove unwanted formatting from copied text for a consistent look.</p>
+      </div>
+      <div class="box column card">
+        <div class="box-img">
+          <img src="./images/icon-preview.svg" alt="icon_preview">
+        </div>
+        <h3>Sneak preview</h3>
+        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
+      </div>
+    </div>
+    <div class="box center">
+      <div class="box-img">
+        <img class="img" src="./images/logo-google.png" alt="logo_google">
+      </div>
+      <div class="box-img">
+        <img class="img" src="./images/logo-ibm.png" alt="logo_ibm">
+      </div>
+      <div class="box-img">
+        <img class="img" src="./images/logo-microsoft.png" alt="logo_microsoft">
+      </div>
+      <div class="box-img">
+        <img class="img" src="./images/logo-hp.png" alt="logo_hp">
+      </div>
+      <div class="box-img">
+        <img class="img" src="./images/logo-vector-graphics.png" alt="logo_vector_graphics">
+      </div>
+    </div>
+  </section>
+  
+  <section class="box column add-margin">
+    <div class="box column content">
+      <h2>Clipboard for iOS and Mac OS</h2>
+      <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud
+      and you’re ready to start adding to your clipboard.</p>
+    </div>
+    <div class="box">
+      <button class="btn verde">Download for iOS</button>
+      <button class="btn roxo">Download for Mac</button>
+    </div>
+  </section>
   
   <footer>
+      <div class="box-logo-footer">
+        <img class="logo" src="./images/logo.svg" alt="logo">
+      </div>
+      <div id="address" class="box">
+        <div class="links box column">
+          <a href="#">FAQs</a>
+          <a href="#">Contact Us</a>
+        </div>
+        <div class="links box column">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Press Kit</a>
+        </div>
+        <div class="links box column">
+          <a href="#">Install Guide</a>
+        </div>
+      </div>
+      <div class="redes">
+        <img src="./images/icon-facebook.svg" alt="icon_facebook">
+        <img src="./images/icon-twitter.svg" alt="logo_twitter">
+        <img src="./images/icon-instagram.svg" alt="logo_instagram">
+      </div>
+  </footer>
+
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
 </body>
 </html>

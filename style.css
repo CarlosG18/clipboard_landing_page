@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  /*palheta de cores*/
+  /*primary*/
+  --Strong_Cyan: hsl(171, 66%, 44%);
+  --Light_Blue: hsl(233, 100%, 69%);
+  /*neutral*/
+  --Dark_Grayish_Blue: hsl(210, 10%, 33%);
+  --Grayish_Blue: hsl(201, 11%, 66%);
+  /*tipografia*/
+  --font: 'Bai Jamjuree', sans-serif;
+}
+
+body{
+  font-size: 18px;
+  font-family: var(--font);
+  background-image: url('./images/bg-header-desktop.png');
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1,h2,h3{
+  color: var(--Dark_Grayish_Blue);
+  margin: 10px 0px;
+}
+
+p{
+  font-weight: 400;
+  color: var(--Grayish_Blue);
+}
+
+header{
+  margin: 100px;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.column{
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-logo{
+  max-width: 75px;
+}
+
+.box-pc{
+  max-width: 500px;
+}
+
+.img-pc{
+  width: 100%;
+  height: auto;
+}
+
+.box-devices{
+  max-width: 600px;
+}
+
+.img-devices{
+  width: 100%;
+  height: auto;
+}
+
+.logo{
+  width: 100%;
+  height: auto;
+}
+
+.content{
+  max-width: 600px;
+  margin: 50px 0px;
+}
+
+.start{
+  align-items: flex-start;
+  text-align: start;
+  margin: 10px 80px;
+  max-width: 600px;
+}
+
+.start > p{
+  font-size: 12px;
+}
+
+.btn{
+  padding: 10px 30px;
+  border: none;
+  border-radius: 30px;
+  font-family: var(--font);
+  color: white;
+  margin: 0px 10px;
+  box-shadow: 0px 5px 5px #42445A36;
+}
+
+.btn:hover{
+  border: none;
+  cursor: pointer;
+}
+
+.verde{
+  background-color: var(--Strong_Cyan);
+  border-bottom: 3px solid hsl(171, 50%, 44%);
+}
+
+.roxo{
+  background-color: var(--Light_Blue);
+  border-bottom: 3px solid hsl(233, 40%, 55%);
+}
+
+.cards{
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.card{
+  margin: 0px 10px;
+  max-width: 200px;
+  font-size: 12px;
+}
+
+.box-img{
+  max-width: 120px;
+  margin: 0px 20px;
+}
+
+.img{
+  width: 100%;
+  height: auto;
+}
+
+.add-margin{
+  margin: 50px 0px 120px 0px;
+}
+
+footer{
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  background-color: #EFEFEF;
+}
+
+.redes > img{
+  margin: 0px 5px;
+}
+
+.links{
+  margin: 0px 20px;
+}
+
+.links > a{
+  color: var(--Dark_Grayish_Blue);
+  text-decoration: none;
+}
+
+.box-logo-footer{
+  max-width: 50px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 375px){
+  body{
+    background-image: url('./images/bg-header-mobile.png');
+  }
+  
+  .btn{
+    margin: 10px 0px;
+  }
+  
+  .box{
+    flex-direction: column;
+    margin: 30px 20px;
+    min-width: 250px;
+  }
+  footer{
+    flex-direction: column;
+  }
+  .start{
+    text-align: center;
+  }
+  
+  .column{
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box-img{
+    margin: 30px 0px;
+  }
+  
+  .center{
+    align-items: center;
+  }
+  
+  .links{
+    margin: 10px 0px;
+  }
+}
